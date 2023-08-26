@@ -75,23 +75,12 @@ const Header = () => {
       </nav> */}
       <div className="navbar">
         <div className="nav-left">
-          <div className="logo"><img src="./port.png" alt="" /></div>
+          <div className="logo">
+            <img src="./port.png" alt="" />
+          </div>
         </div>
         <div className="nav-right">
-          <ul>
-            <li>
-              {/* <a href="#home">Home</a> */}
-            </li>{" "}
-            <li>
-              <a href="#services">Services</a>
-            </li>{" "}
-            <li>
-              <a href="#contact">contact</a>
-            </li>{" "}
-            <li>
-              <a href="">Home</a>
-            </li>
-          </ul>
+          <ul></ul>
         </div>
       </div>
     </>
