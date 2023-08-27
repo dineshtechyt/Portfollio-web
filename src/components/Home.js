@@ -19,30 +19,25 @@ const Home = () => {
       <div className="sec-2" id="services">
         <h1>My Projects</h1>
         <div className="services">
-          <div className="card">
-            <a href="https://e-commerce-app-4hom.onrender.com">
-              <img src="./dv2.png" alt="image" />
-              <div className="card-body">
-                <h3>E-commerce web</h3>
+          <a href="">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://e-commerce-app-4hom.onrender.com"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">
+                  Go somewhere
+                </a>
               </div>
-            </a>
-          </div>{" "}
-          <div className="card">
-            <a href="https://e-commerce-app-4hom.onrender.com">
-              <img src="./dv2.png" alt="image" />
-              <div className="card-body">
-                <h3>Agro services web</h3>
-              </div>
-            </a>
-          </div>{" "}
-          <div className="card">
-            <a href="https://e-commerce-app-4hom.onrender.com">
-              <img src="./dv2.png" alt="image" />
-              <div className="card-body">
-                <h3>Crud operations web</h3>
-              </div>
-            </a>
-          </div>{" "}
+            </div>{" "}
+          </a>
         </div>
       </div>
       <hr />
