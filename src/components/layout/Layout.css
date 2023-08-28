@@ -1,6 +1,6 @@
 .navbar {
-  height: 60px;
-  padding: 2px;
+  height: 70px;
+  padding: 0px;
   border-bottom: 1px solid black;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 .navbar .nav-left .logo {
   width: 10%;
-  padding: 4px;
+  padding-left: 2vh;
   text-align: center;
   /* background-color: lightblue; */
 }
@@ -24,11 +24,14 @@
   background-color:lightgrey;
 }
 .navbar .nav-right {
+  /* display: flex; */
   width: 50%;
 }
 .navbar .nav-right ul {
   display: flex;
+  margin-bottom: 0;
   flex-direction: row;
+
   justify-content: space-between;
 }
 .navbar .nav-right ul li {
@@ -56,24 +59,60 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: lightcyan;
+  background-color:black;
   border-top: 2px solid rgb(76, 59, 59);
   
 
 }
 .footer h1{
-  word-spacing: 4vh;
+  color: aliceblue;
+  word-spacing: 2vh;
   font-size: 2.5rem;
 }
 .footer-left{
-  
   display: flex;
+  /* flex-direction: column; */
   margin-bottom: 2vh;
   /* flex-direction: row; */
   justify-content: space-between;
 }
 .footer-left a{
-  word-spacing: 2vh;
+  border-bottom: 1px solid rgb(70, 65, 65);
+  color:white;
+
+  word-spacing: 1vh;
   text-decoration: none;
   margin:0px 12vh;
+}
+.footer-left a:hover{
+color:rgb(148, 60, 60);
+}
+
+@media  only screen and (max-width:700px) {
+  .footer h1{
+    color: rgb(209, 24, 24);
+    word-spacing: 1vh;
+    margin-bottom: 2vh;
+    font-size: 2rem;
+  }
+  .footer-left{
+    display: flex;
+    /* width: 100%; */
+    flex-direction: row;
+    margin-bottom: 2vh;
+    /* flex-direction: row; */
+    justify-content: center;
+  }
+  .footer-left a{
+  font-size: 0.7rem;
+    border-bottom: 1px solid rgb(70, 65, 65);
+    color:white;
+    /* border: 2px solid red; */
+  text-align: center;
+  word-wrap: break-word;
+    word-spacing: 0vh;
+    text-decoration: none;
+    margin:0px 5vh;
+    width: 100%;
+  }
 }

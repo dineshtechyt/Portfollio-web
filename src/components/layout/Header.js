@@ -4,11 +4,8 @@ import "./Layout.css";
 const Header = () => {
   return (
     <>
-      {/* <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,63 +23,52 @@ const Header = () => {
           >
             <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#home">
                   Home
                 </a>
-              </li>
+              </li>{" "}
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
+                <a className="nav-link active" aria-current="page" href="#services">
+                  services
                 </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              </li>{" "}
               <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <a className="nav-link active" aria-current="page" href="#contact">
+                  contact
+                </a>
+              </li>{" "}
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#about">
+                  about
+                </a>
               </li>
             </ul>
           </div>
         </div>
-      </nav> */}
-      <div className="navbar">
+      </nav>
+      {/* <div className="navbar">
         <div className="nav-left">
           <div className="logo">
             <img src="./port.png" alt="" />
           </div>
         </div>
         <div className="nav-right">
-          <ul></ul>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="##services">services</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+            <li>
+              <a href="#about">about</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

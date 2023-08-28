@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-left">
         
           <a href="">Github repository</a>
-          <a href="">dineshpawar8696@gmail.com</a>
+          <a href="">Email = dineshpawar8696@gmail.com</a>
 
       </div>
       
